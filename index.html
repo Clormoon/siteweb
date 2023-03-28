@@ -1,80 +1,94 @@
 <!DOCTYPE html>
 
-<html lang="fr">
-    <head>
-        <title>Mon site</title>
-        <meta charset="UTF-8">
-        <link rel="shortcut icon" href="img/logosite.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/bootstrap.css" rel="stylesheet">
-    </head>
-    <body>
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-                <div class="container-fluid">
-                
-                  <div class="collapse navbar-collapse" id="navbarColor01">
-                    <ul class="navbar-nav me-auto">
-                      <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Accueil
-                          <span class="visually-hidden">(current)</span>
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="gw2.html">Guild Wars 2</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="wow.html">World Of Warcraft</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="sot.html">Sea Of Thieves</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="civ.html">Civilization</a>
-                      </li>
-                    </ul>
-                    <form class="d-flex">
-                      <input class="form-control me-sm-2" type="search" placeholder="Search">
-                      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                  </div>
-                </div>
-              </nav>
-
-            <h1>projet 14 - HTML CSS - Gaming Campus </h1>
-
-            <p>mettre un texte d'introduction
-            </p>
-
-            <div class="border-margin-img">
-                <table>
-                  <tr>
-                    <th>
-                        <img src="img/gw2/gw2.png" alt="page d'acceuil guild wars 2">
-                    </th>
-                    <th>
-                        <img src="img/wow/wow.png" alt="page d'acceuil world of warcraft">
-                    </th>
-                  </tr>
-                  <tr>
-                    <th>
-                        <img src="img/sot/sot.jpg" alt="page d'acceuil sea of thieve">
-                    </th>
-                    <th>
-                        <img src="img/civ/civ.png" alt="page d'accueil civilization">
-                    </th>
-                  </tr>
-                </table>
-            </div>    
-
-
-
-            <!-- COPYRIGHT SIGNATURE -->
-        
-            <footer class="footer">
-                <p class="dmca">Created by © Lor-Foui Chloé</p>
-            </footer>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Projet 14 - structure une page web</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Accueil
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="gw2.html">Guild Wars 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="wow.html">World of Warcraft</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="sot.html">Sea of Thieves</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="civ.html">Civilization</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </body>
+      </nav>
+
+      <h1>Projet 14 - framework HTML/CSS/JS</h1>
+
+      <div class="p">
+        <p>
+          Problématique :
+          Comment organiser un contenu conséquent d’articles similaires (jeux vidéos) sur un site web et respectant les standards de design du web et en utilisant une librairie existante de CSS (Bootstrap) en maintenant une consistance graphique d’un article à l’autre
+        </p>
+        <p>
+          Pour ce projet j'ai décidée de prendre 4 jeux qui sont : 
+        </p>
+      </div>
+      <div class="border-margin-page">
+        <div class="carousel" role="group" aria-roledescription="carousel" data-carousel aria-label="Student testimonials">
+          <div class="carousel-buttons">
+            <button
+              class="carousel-button carousel-button_previous"
+              aria-label="Previous slide"
+              data-carousel-button-previous
+            >
+              <span class="fas fa-chevron-circle-left"></span>
+            </button>
+            <button
+              class="carousel-button carousel-button_next"
+              aria-label="Next slide"
+              data-carousel-button-next
+            >
+              <span class="fas fa-chevron-circle-right"></span>
+            </button>
+          </div>
+          <div class="slides" data-carousel-slides-container>
+            <div class="slide">
+              <img src="img/gw2/gw2.png" alt="Guild wars 2" width="460" height="345">
+            </div>
+            <div class="slide">
+              <img src="img/wow/wow.png" alt="World of Warcraft" width="460" height="345">
+            </div>
+            <div class="slide">
+              <img src="img/sot/sot.jpg" alt="Sea of Thieves" width="460" height="345">
+            </div>
+            <div class="slide">
+              <img src="img/civ/civ.png" alt="Civilization" width="460" height="345">
+            </div>
+          
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <script src="carousel.js"></script>
+  </body>
 </html>
