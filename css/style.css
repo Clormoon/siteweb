@@ -1,0 +1,64 @@
+/* Balise du code */
+
+html, body{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    background-image: url("");
+    background-color: var(--bg);
+    min-height: 100vh;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: top;
+    background-position-x: center;
+    background-position-y: top;
+    font-size: 20px;
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+/* NAVBAR */
+
+header .navbar {
+  text-decoration: none;
+  background-color: var(--bg);
+  width: 100%;
+  border-top-style: solid;
+  border-top-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-color: var(--white);
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: auto;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+}
+  
+  
+header .navbar a {
+  color: var(--white);
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px;
+
+}
+  
+header .navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #eae4cd;
+  animation-delay: 30ms;
+}
