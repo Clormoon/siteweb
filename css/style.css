@@ -1,55 +1,82 @@
+
+:root{
+    --bg: #EAD2A8;
+    --white: #ffffff;
+    --black: #000;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #000; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #000; 
+  }
+
 /* Balise du code */
 
-html, body{
-    scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
-    background-image: url("");
-    background-color: var(--bg);
-    min-height: 100vh;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
-    background-position: top;
-    background-position-x: center;
-    background-position-y: top;
-    font-size: 20px;
-}
+ 
 
 h1{
-
+    color: var(--black);
+    text-align: center;
+    text-decoration: none;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    align-items: center;
+    font-size: 75px;
+    text-transform: uppercase;
 }
 
-h2{
-
+h2, h3, h4{
+    color: var(--black);
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
 }
 
-h3{
-
+p {
+    color: var(--black);
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
 }
+
 
 /* NAVBAR */
 
-header .navbar {
-  text-decoration: none;
-  background-color: var(--bg);
-  width: 100%;
-  border-top-style: solid;
-  border-top-color: var(--white);
-  border-bottom-style: solid;
-  border-bottom-color: var(--white);
-  display: flex;
-  justify-content: space-evenly;
-  margin: auto;
-  padding: auto;
-  position: fixed;
-  z-index: 100;
-  top: 0;
-}
+.navbar {
+    display: flex;
+    text-decoration: none;
+    background-color: var(--bg);
+    width: 100%;
+    border-top-style: solid;
+    border-top-color: var(--black);
+    border-bottom-style: solid;
+    border-bottom-color: var(--black);
+    justify-content: space-between;
+    margin: auto;
+    padding: auto;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left:0; right: 0;
+}   
   
   
-header .navbar a {
+.navbar a {
   color: var(--white);
   text-align: center;
   text-decoration: none;
@@ -58,7 +85,42 @@ header .navbar a {
 
 }
   
-header .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #eae4cd;
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #f5f5dc;
   animation-delay: 30ms;
+}
+
+.border-margin-img img{
+    width: 700px;
+    height: 600px;
+    padding-left: 200px;
+    border-width: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* COPYRIGHT */
+
+.footer{
+  padding: 10px 20px;
+  background: #EAD2A8;
+  color: black;
+  text-align: center;
 }
