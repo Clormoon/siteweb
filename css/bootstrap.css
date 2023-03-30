@@ -640,7 +640,7 @@ progress {
 .container-lg,
 .container-md,
 .container-sm {
-  --bs-gutter-x: 1.5rem;
+  --bs-gutter-x: 1rem;
   --bs-gutter-y: 0;
   width: 100%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
@@ -8184,7 +8184,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #000 !important;
 }
 
 .bg-secondary {

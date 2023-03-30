@@ -1,0 +1,35 @@
+.logo-gw2{
+    align-self: center;
+    margin-left: 35%;
+    position: relative;
+    height: 30%;
+    width: 30%;
+}
+
+.card-header-center{
+    align-self: center !important;
+}
+
+.text-intro{
+    color:#000 !important;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.navbar-logo{
+    width: 50px;
+    height: 50px;
+}
+
+.border-margin-page{
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 20px;
+  padding-top: 5px;
+  background-image: url("../img/gw2/bordermarginpage.png");
+  box-sizing: border-box;
+  display: block;
+  border-radius: 2.5px;
+}
