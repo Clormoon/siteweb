@@ -1,63 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/style.css">
-  <title>World Of Warcraft</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon-title.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/wow.css">
+    <title>World Of Warcraft</title>
+  </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <img src="img/logonav.png" alt="logo navbar" class="navbar-logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
-        aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarColor01">
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Accueil
-              <span class="visually-hidden">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#boutique">Boutique</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="gw2.html">GuildWars2</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="wow.html">World of Warcraft</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="sot.html">Sea of Thieves</a>
-          </li>
-          <li class="nav-item">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Other Open World
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logonav.png" alt="logo navbar" class="navbar-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarColor01"
+          aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle
+          navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Accueil
+                <span class="visually-hidden">(current)</span>
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="https://www.minecraft.net/fr-fr">Minecraft</a></li>
-                <li><a class="dropdown-item" href="https://www.xbox.com/fr-FR/games/forza-horizon-5">Forza horizon</a></li>
-                <li><a class="dropdown-item" href="https://genshin.hoyoverse.com/fr">Genshin Impact</a></li>
-              </ul>
             </li>
-          </li>
-        </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="gw2.html">GuildWars2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="wow.html">World of Warcraft</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sot.html">Sea of Thieves</a>
+            </li>
+            <li class="nav-item">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Other Open World
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item"
+                      href="https://www.minecraft.net/fr-fr">Minecraft</a></li>
+                  <li><a class="dropdown-item"
+                      href="https://www.xbox.com/fr-FR/games/forza-horizon-5">Forza
+                      horizon</a></li>
+                  <li><a class="dropdown-item"
+                      href="https://genshin.hoyoverse.com/fr">Genshin Impact</a></li>
+                </ul>
+              </li>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
 
+    <div class="container">
 
 
-</body>
+      <div class="border-margin-page">
+        <img class="logo-wow" src="img/wow/logowow.png" alt="logo wow">
+        <p class="lh-1 text-intro">Retournez aux confins Interdits. Vivez de
+          nouvelles aventures, collectez deux nouveaux ensembles d’armure
+          ancestrale pour les Orcs et les Humains, entreprenez un nouveau
+          périple en tant que moine avec n’importe quelle race et plus encore.
+          <a href="https://worldofwarcraft.blizzard.com/fr-fr/">créez votre
+            compte</a>
+        </p>
+
+        <div class="ratio" style="--bs-aspect-ratio: 45%;">
+          <iframe src="https://www.youtube.com/embed/vlVSJ0AvZe0" title="YouTube
+            video trailer WoW" allowfullscreen></iframe>
+        </div>
+        <br>
+        <!-- Carousel extension -->
+
+        <div class="card-group">
+          <div class="card">
+            <h5 class="card-title wow-card-title">Extensions</h5>
+
+            <div class="card-body">
+
+              <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/wow/1burnincrusade.jpg" class="d-block w-100"
+                      alt="extension world of Warcraft" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/wow/2wlwow.jpg" class="d-block w-100"
+                      alt="extension world of Warcraft" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/wow/3catawow.jpg" class="d-block w-100"
+                      alt="extension world of Warcraft" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/wow/4mpwow.png" class="d-block w-100"
+                      alt="extension world of Warcraft" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/wow/5wodwow.png" class="d-block w-100"
+                      alt="extension world of Warcraft" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/wow/6Lwow.png" class="d-block w-100"
+                      alt="extension world of Warcraft" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/wow/7boaewow.jpg" class="d-block w-100"
+                      alt="extension world of Warcraft" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/wow/8swow.png" class="d-block w-100"
+                      alt="extension world of Warcraft" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/wow/9dfwow.jpg" class="d-block w-100"
+                      alt="extension world of Warcraft" height="500">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button"
+                  data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button"
+                  data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <p class="card-text">Disponible sur
+              <a
+                href="https://www.blizzard.com/fr-fr/download/confirmation?platform=windows&locale=fr_FR&product=wow">blizzard.com</a>
+            </p>
+          </div>
+        </div>
+      </div> <!-- fermeture border margin page-->
+    </div> <!-- fermeture du container-->
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"></script>
+  </body>
 </html>

@@ -1,27 +1,31 @@
-.title-h1{
-    color:black;
+.title-h1 {
+    color: black;
     text-align: center;
     text-transform: uppercase;
     font-family: sans-serif;
 }
 
-.title-h2{
-    text-align:left;
+.title-h2 {
+    text-align: left;
     text-transform: uppercase;
     font-family: sans-serif;
     text-decoration: underline;
 }
 
-.title-h5{
+.title-h5 {
     color: #fff;
 }
 
-.title-p{
+.title-p {
     text-align: justify;
     font-family: sans-serif;
 }
 
-.navbar-logo{
+.navbar-logo {
     width: 50px;
     height: 50px;
+}
+
+.nav-bg-primary {
+    color: black !important;
 }

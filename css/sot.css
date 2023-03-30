@@ -1,4 +1,4 @@
-.logo-gw2 {
+.logo-sot {
     align-self: center;
     margin-left: 35%;
     position: relative;
@@ -28,8 +28,21 @@
     position: relative;
     padding: 20px;
     padding-top: 5px;
-    background-image: url("../img/gw2/bordermarginpage.png");
+    background-image: url("../img/sot/border-page.png");
     box-sizing: border-box;
     display: block;
     border-radius: 2.5px;
+}
+
+
+h5 {
+    text-transform: uppercase;
+    font-family: serif;
+    font-size: 50px;
+}
+
+p {
+    font-family: serif;
+    font-size: 25px;
+    text-align: center;
 }
