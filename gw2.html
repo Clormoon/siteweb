@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="img/icon-title.png">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/gw2.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Guild Wars 2</title>
   </head>
   <body>
@@ -36,6 +37,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="sot.html">Sea of Thieves</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
             </li>
             <li class="nav-item">
               <li class="nav-item dropdown">
@@ -113,8 +117,83 @@
 
 
       </div> <!-- fermeture border margin page-->
-    </div> <!-- fermeture du container-->
 
+      <h1 class="form-contact" id="contact">Avez vous des questions</h1>
+      <form name="myForm" action="/file.php" onsubmit="return validateForm()" method="post">
+         <table class="form-style">
+            <tr>
+               <td>
+                  <label>
+                     Votre nom <span class="required">*</span>
+                  </label>
+               </td>
+               <td>
+                  <input type="text" name="name" class="long"/>
+                  <span class="error" id="errorname"></span>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>
+                     Votre adresse e-mail <span class="required">*</span>
+                  </label>
+               </td>
+               <td>
+                  <input type="email" name="email" class="long"/>
+                  <span class="error" id="erroremail"></span>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>
+                     Poser votre question <span class="required">*</span>
+                  </label>
+               </td>
+               <td>
+                  <textarea name="message" class="long field-textarea"></textarea>
+                  <span class="error" id="errormsg"></span>
+               </td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>
+                  <input type="submit" value="Envoyer">      
+                  <input type="reset" value="Réinitialiser"> 
+               </td>
+            </tr>
+         </table>
+      </form>
+    </div> <!-- fermeture du container-->
+    <article>
+      <footer>
+        <img class="footer-logo" src="img/footer.png" alt="logo de footer">
+        <p>© Lor-Foui Chloé GBS1<br>clor-foui@gaming.bs</p>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/clormoon_/">
+              <img class="footer-img" src="img/reseau/logoinsta.png"
+                alt="Instagram">
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/ChloeLorF">
+              <img class="footer-img" src="img/reseau/logotwitter.png"
+                alt="twitter">
+            </a>
+          </li>
+        </ul>
+            <a href="https://discord.com/invite/guildwars2">
+              <p>Discord guild wars 2</p>
+            </a>
+            <a href="https://discord.com/invite/wow">
+              <p>Discord World of Warcraft</p>
+            </a>
+            <a href="https://discord.com/invite/SeaOfThieves">
+              <p>Discord Sea of Thieves</p>
+            </a>
+        </ul>
+      </footer>
+    </article>
 
   </body>
 </html>
